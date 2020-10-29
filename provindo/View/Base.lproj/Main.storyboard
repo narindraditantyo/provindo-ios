@@ -17,18 +17,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Nkd-Td-6mN">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="140" width="414" height="722"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="UqN-c1-XT3">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UqN-c1-XT3" id="c4W-YM-8Nn">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -40,7 +30,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Nkd-Td-6mN" secondAttribute="trailing" id="OTB-Rg-fPb"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="n3f-Ax-Lb1"/>
+                    <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="n3f-Ax-Lb1"/>
                     <connections>
                         <outlet property="provinceTV" destination="Nkd-Td-6mN" id="ozB-tb-P0x"/>
                     </connections>
@@ -49,20 +39,20 @@
             </objects>
             <point key="canvasLocation" x="713.04347826086962" y="109.82142857142857"/>
         </scene>
-        <!--Details View Controller-->
-        <scene sceneID="EXN-3t-Rap">
+        <!--View Controller-->
+        <scene sceneID="qTr-s5-xNP">
             <objects>
-                <viewController id="3Cw-71-xF4" customClass="DetailsViewController" customModule="provindo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="r0f-yQ-QRJ">
+                <viewController id="x9r-cI-R5x" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KIg-X6-3t0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="Nt7-mi-hWG"/>
+                        <viewLayoutGuide key="safeArea" id="JIi-ZQ-2f7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WtY-GV-Xvb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EGh-Dm-1NR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1425" y="110"/>
+            <point key="canvasLocation" x="1442" y="110"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2nb-nj-vNC">
@@ -81,21 +71,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="peb-pQ-cOe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-197.10144927536234" y="109.82142857142857"/>
-        </scene>
-        <!--Profile View Controller-->
-        <scene sceneID="pWa-mz-Fti">
-            <objects>
-                <viewController id="Y41-4t-VMV" customClass="ProfileViewController" customModule="provindo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="jfV-Gx-7yx">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="PuP-Sv-vrr"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7Mj-tp-0Lp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2130" y="110"/>
         </scene>
     </scenes>
     <resources>

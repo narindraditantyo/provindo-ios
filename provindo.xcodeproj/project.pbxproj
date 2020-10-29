@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		115ED10C2547C4A10077DDAD /* ProvinceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115ED10B2547C4A10077DDAD /* ProvinceData.swift */; };
+		11B2A792254ABD4E0026BAB0 /* ProvinceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2A790254ABD4E0026BAB0 /* ProvinceTableViewCell.swift */; };
+		11B2A793254ABD4E0026BAB0 /* ProvinceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B2A791254ABD4E0026BAB0 /* ProvinceTableViewCell.xib */; };
+		11B2A798254AC5C20026BAB0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2A796254AC5C20026BAB0 /* DetailViewController.swift */; };
+		11B2A799254AC5C20026BAB0 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B2A797254AC5C20026BAB0 /* DetailViewController.xib */; };
+		11B2A79E254ACE1A0026BAB0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2A79C254ACE1A0026BAB0 /* ProfileViewController.swift */; };
+		11B2A79F254ACE1A0026BAB0 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B2A79D254ACE1A0026BAB0 /* ProfileViewController.xib */; };
 		11DAEAB6254761D500BD8DCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAEAB5254761D500BD8DCE /* AppDelegate.swift */; };
 		11DAEAB8254761D500BD8DCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAEAB7254761D500BD8DCE /* SceneDelegate.swift */; };
 		11DAEABA254761D500BD8DCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAEAB9254761D500BD8DCE /* ViewController.swift */; };
@@ -14,11 +21,16 @@
 		11DAEABF254761D600BD8DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DAEABE254761D600BD8DCE /* Assets.xcassets */; };
 		11DAEAC2254761D600BD8DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DAEAC0254761D600BD8DCE /* LaunchScreen.storyboard */; };
 		11DAEACB254761F200BD8DCE /* Province.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAEACA254761F200BD8DCE /* Province.swift */; };
-		11DAEACE25476B2200BD8DCE /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAEACD25476B2200BD8DCE /* DetailsViewController.swift */; };
-		11DAEAD125476D7900BD8DCE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAEAD025476D7900BD8DCE /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		115ED10B2547C4A10077DDAD /* ProvinceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvinceData.swift; sourceTree = "<group>"; };
+		11B2A790254ABD4E0026BAB0 /* ProvinceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvinceTableViewCell.swift; sourceTree = "<group>"; };
+		11B2A791254ABD4E0026BAB0 /* ProvinceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProvinceTableViewCell.xib; sourceTree = "<group>"; };
+		11B2A796254AC5C20026BAB0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		11B2A797254AC5C20026BAB0 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		11B2A79C254ACE1A0026BAB0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		11B2A79D254ACE1A0026BAB0 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		11DAEAB2254761D500BD8DCE /* provindo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = provindo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DAEAB5254761D500BD8DCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11DAEAB7254761D500BD8DCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,8 +40,6 @@
 		11DAEAC1254761D600BD8DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11DAEAC3254761D600BD8DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11DAEACA254761F200BD8DCE /* Province.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Province.swift; sourceTree = "<group>"; };
-		11DAEACD25476B2200BD8DCE /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		11DAEAD025476D7900BD8DCE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		115ED1082547C40E0077DDAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11DAEACA254761F200BD8DCE /* Province.swift */,
+				115ED10B2547C4A10077DDAD /* ProvinceData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		115ED1092547C4170077DDAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11DAEABB254761D500BD8DCE /* Main.storyboard */,
+				11B2A791254ABD4E0026BAB0 /* ProvinceTableViewCell.xib */,
+				11B2A797254AC5C20026BAB0 /* DetailViewController.xib */,
+				11B2A79D254ACE1A0026BAB0 /* ProfileViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		115ED10A2547C41E0077DDAD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				11DAEAB9254761D500BD8DCE /* ViewController.swift */,
+				11B2A790254ABD4E0026BAB0 /* ProvinceTableViewCell.swift */,
+				11B2A796254AC5C20026BAB0 /* DetailViewController.swift */,
+				11B2A79C254ACE1A0026BAB0 /* ProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		11DAEAA9254761D500BD8DCE = {
 			isa = PBXGroup;
 			children = (
@@ -62,13 +103,11 @@
 		11DAEAB4254761D500BD8DCE /* provindo */ = {
 			isa = PBXGroup;
 			children = (
+				115ED1082547C40E0077DDAD /* Model */,
+				115ED1092547C4170077DDAD /* View */,
+				115ED10A2547C41E0077DDAD /* Controller */,
 				11DAEAB5254761D500BD8DCE /* AppDelegate.swift */,
 				11DAEAB7254761D500BD8DCE /* SceneDelegate.swift */,
-				11DAEAB9254761D500BD8DCE /* ViewController.swift */,
-				11DAEACD25476B2200BD8DCE /* DetailsViewController.swift */,
-				11DAEAD025476D7900BD8DCE /* ProfileViewController.swift */,
-				11DAEACA254761F200BD8DCE /* Province.swift */,
-				11DAEABB254761D500BD8DCE /* Main.storyboard */,
 				11DAEABE254761D600BD8DCE /* Assets.xcassets */,
 				11DAEAC0254761D600BD8DCE /* LaunchScreen.storyboard */,
 				11DAEAC3254761D600BD8DCE /* Info.plist */,
@@ -133,9 +172,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B2A79F254ACE1A0026BAB0 /* ProfileViewController.xib in Resources */,
 				11DAEAC2254761D600BD8DCE /* LaunchScreen.storyboard in Resources */,
 				11DAEABF254761D600BD8DCE /* Assets.xcassets in Resources */,
+				11B2A799254AC5C20026BAB0 /* DetailViewController.xib in Resources */,
 				11DAEABD254761D500BD8DCE /* Main.storyboard in Resources */,
+				11B2A793254ABD4E0026BAB0 /* ProvinceTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,12 +188,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11DAEAD125476D7900BD8DCE /* ProfileViewController.swift in Sources */,
 				11DAEABA254761D500BD8DCE /* ViewController.swift in Sources */,
+				11B2A792254ABD4E0026BAB0 /* ProvinceTableViewCell.swift in Sources */,
 				11DAEAB6254761D500BD8DCE /* AppDelegate.swift in Sources */,
 				11DAEAB8254761D500BD8DCE /* SceneDelegate.swift in Sources */,
 				11DAEACB254761F200BD8DCE /* Province.swift in Sources */,
-				11DAEACE25476B2200BD8DCE /* DetailsViewController.swift in Sources */,
+				115ED10C2547C4A10077DDAD /* ProvinceData.swift in Sources */,
+				11B2A79E254ACE1A0026BAB0 /* ProfileViewController.swift in Sources */,
+				11B2A798254AC5C20026BAB0 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
