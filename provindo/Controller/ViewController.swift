@@ -13,11 +13,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         provinceTV.delegate = self
         
         provinceTV.register(UINib(nibName: "ProvinceTableViewCell", bundle: nil), forCellReuseIdentifier: "provinceCell")
-        
-        let profile = ProfileViewController(nibName: "ProfileViewController", bundle: nil)
-        let profileButton = UIBarButtonItem(image: UIImage(named: "profile_photo"), style: .plain, target: self, action: self.navigationController?.pushViewController(profile, animated: true))
-        
-        self.navigationItem.rightBarButtonItem = profileButton
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
